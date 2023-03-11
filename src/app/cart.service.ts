@@ -18,7 +18,7 @@ export class CartService {
     return this.items;
   }
 
-  clearItems() {
+  clearCart() {
     this.items = [];
     return this.items;
   }
